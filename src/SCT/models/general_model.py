@@ -38,7 +38,7 @@ class GeneralModel(nn.Module):
     # noinspection PyPep8Naming
     def forward(self, batch: BatchItem) -> ForwardOut:
         T = batch.T
-        X = batch.feats.squeeze(dim=1)
+        X = batch.feats  # .squeeze(dim=1)
         fer_outputs = self.fer.forward(X)  # [[1 x D' x T'], [1 x D', K]]
         Z = fer_outputs[0]  # [1 x D' x T']
         Z_prime = fer_outputs[-1]  # [1 x D' x K]
