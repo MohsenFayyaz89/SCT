@@ -1,0 +1,9 @@
+numpy>=1.16.4,<2
+torch>=1.4.0
+torchvision>=0.3.0
+tqdm>=4.32.0,<5
+yacs>=0.1.6,<0.2
+tensorboard>=1.14,<2
+future>=0.17,<1.0
+edit-distance>=1.0.3,<2
+scipy
