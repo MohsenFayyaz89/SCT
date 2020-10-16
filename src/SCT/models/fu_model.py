@@ -4,14 +4,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch import Tensor
 
-
-@dataclass
-class EncoderOut:
-    encoded: Tensor
-    h: Tensor
-    c: Tensor
-
-
 # noinspection PyPep8Naming
 def project_lengths_softmax(T: int, L: Tensor) -> Tensor:
     """
