@@ -28,9 +28,9 @@ _C.training.overfit = False
 _C.training.overfit_indices = [0]
 _C.training.clip_grad_norm = True
 _C.training.clip_grad_norm_value = 10
-_C.training.num_epochs = 100
+_C.training.num_epochs = 120
 _C.training.optimizer = "SGD"
-_C.training.learning_rate = 1e-2
+_C.training.learning_rate = 0.005
 _C.training.momentum = 0.009
 _C.training.weight_decay = 0.000
 _C.training.random_flip = False
@@ -41,7 +41,7 @@ _C.training.scheduler = CN()
 _C.training.scheduler.name = "step"  # can be 'none', 'plateau', 'step'
 
 _C.training.scheduler.multi_step = CN()
-_C.training.scheduler.multi_step.steps = [80]
+_C.training.scheduler.multi_step.steps = [100]
 
 # below are the settings for plateau lr scheduler.
 _C.training.scheduler.plateau = CN()
