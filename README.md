@@ -5,7 +5,7 @@ Source code of the CVPR 2020 paper: ["SCT: Set Constrained Temporal Transformer 
 
 
 ```latex
-@inproceedings{sct2019,
+@inproceedings{sct2020,
     Author    = {Fayyaz, Mohsen and Gall, Juergen},
     Title     = {{SCT: Set Constrained Temporal Transformer for Set Supervised Action Segmentation}},
     Booktitle = {{CVPR}},
