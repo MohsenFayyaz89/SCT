@@ -12,3 +12,11 @@ Source code of the CVPR 2020 paper: ["SCT: Set Constrained Temporal Transformer 
     Year      = {2020}
 }
 ```
+
+## Requirements
+
+The main dependencies is:
+
+* Python 3.7
+
+Other dependencies are listed in the `requirements.txt` file.
