@@ -50,5 +50,5 @@ class GeneralModel(nn.Module):
         W = self.get_masks(Y=Y, A_hat=batch.A_hat)  # [1 x M x T]
         V = self.sct(W=W, S=S, T=T)  # [1 x M x C]
         # _res = F.interpolate(A, T)
-        # Y = _res
+        # Y = _res + Y
         return ForwardOut(S=S, Y=Y, Z=Z, A=A, L=L, V=V)
