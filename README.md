@@ -18,5 +18,6 @@ Source code of the CVPR 2020 paper: ["SCT: Set Constrained Temporal Transformer 
 The main dependencies is:
 
 * Python 3.7
+* PyTorch 1.6
 
 Other dependencies are listed in the `requirements.txt` file.
